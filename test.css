@@ -1,0 +1,76 @@
+.header {
+    background-color: #000;
+}
+
+.header-innner {
+    display: flex;
+    align-items:center;
+    text-align: center;
+    width:100%;
+    padding:20px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.header-logo a{
+    color: white;
+    text-decoration: none;
+    font-size:30px;
+    font-weight: bold;
+}
+
+nav {
+    width:100%;  
+  list-style: none;
+  overflow: hidden;
+
+}
+ 
+nav li {
+  width: 140px;
+  text-align: center;
+  float: left;
+}
+ 
+nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  right:500px;
+}
+
+.toppage{
+  background-color:#C3C3C3;
+  width:1920px;
+  height:774px;
+  background-image: url(img/haikei.png);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+  background-size: auto 100%;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.serveceword-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.serveceword-sub {
+    height:1000px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+}
+
+
+
+.serveceword-main {
+    font-size: 40px;
+    letter-spacing: 0.1em;
+}
